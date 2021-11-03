@@ -1,0 +1,103 @@
+/*
+float, justify and align	
+https://www.w3schools.com/css/css_align.asp
+1) Block elements - Using Width & Margin
+2) Text-align
+3) Convert inline to block - display: block; margin-left: auto; margin-right: auto; width: 40%;
+4) Position - absolute or relative
+	Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+5) float: right; width: 300px;
+
+positions (absolute, relative, static, fixed, sticky)
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+https://youtu.be/jx5jmI0UlXU
+
+Flex Layout
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+
+
+
+https://www.w3schools.com/css/css3_flexbox.asp
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+main {
+	background-color: black;
+	max-width: 100vw;
+	height: 400px;
+	margin: 50px auto;
+}
+
+/* div {
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	border: 2px solid red;
+	margin: 10px;
+	display: inline-block;
+}
+
+#static {
+	background-color: black;
+	width: 50vw;
+	height: 50vh;
+}
+
+#middle {
+	background-color: paleturquoise;
+	border: 2px solid blue;
+	box-shadow: 3px 3px 5px 6px rgba(51, 255, 33, 0.4);
+}
+
+#static #middle {
+	position: static;
+	top: 50px;
+}
+
+#relative #middle {
+	position: relative;
+	top: -50px;
+	right: -100px;
+}
+
+#absolute #middle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#fixed #middle {
+	position: fixed;
+	top: 100px;
+	right: 100px;
+} */
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	border: 2px solid red;
+}
+
+#middle {
+	background-color: paleturquoise;
+	border: 2px solid blue;
+}

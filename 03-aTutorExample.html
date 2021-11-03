@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML2</title>
+	</head>
+	<body>
+		<main>
+			<div style="background-color: tomato">
+				Hello <span style="background-color: blue">Hello World!</span> World!
+			</div>
+
+			<table style="border: 3px solid black; margin-top: 50px">
+				<thead>
+					<tr>
+						<th>Heading 1</th>
+						<th>Heading 2</th>
+						<th>Heading 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr style="background-color: tomato">
+						<td>Data 1a</td>
+						<td>Data 2a</td>
+						<td>Data 3a</td>
+					</tr>
+					<tr>
+						<td style="border: 3px solid blue">Data 1b</td>
+						<td style="border: 3px solid blue">Data 2b</td>
+						<td style="border: 3px solid blue">Data 3b</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<form style="margin: 20px" action="https://www.redrc.net" target="_blank">
+				<textarea>Hello Everyone</textarea>
+                <br>
+                <br>
+				<select>
+					<option>Option 1</option>
+					<option>Option 2</option>
+					<option>Option 3</option>
+					<option>Option 4</option>
+				</select>
+				<br />
+				<br />
+				<br />
+				<label for="input1">name</label>
+				<input type="text" id="input1" placeholder="john smith" />
+				<br />
+				<br />
+				<label for="input2">email</label>
+				<input type="email" id="input2" placeholder="a@a.com" />
+				<br />
+				<br />
+				<label for="input3">password</label>
+				<input type="password" id="input3" />
+				<br />
+				<br />
+				<label for="input4">mobile</label>
+				<input type="number" id="input4" />
+				<br />
+				<br />
+				<input
+					type="checkbox"
+					id="vehicle1"
+					name="vehicle1"
+					value="Bike"
+					checked
+				/>
+				<label for="vehicle1"> I have a bike</label><br />
+				<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+				<label for="vehicle2"> I have a car</label><br />
+				<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+				<label for="vehicle3"> I have a boat</label>
+				<br />
+				<br />
+				<input type="radio" id="male" name="gender" value="male" />
+				<label for="male">Male</label><br />
+				<input type="radio" id="female" name="gender" value="female" />
+				<label for="female">Female</label><br />
+				<input type="radio" id="other" name="gender" value="other" />
+				<label for="other">Other</label>
+				<br />
+				<br />
+				<!--<input type="button" value="click me...." />-->
+				<br />
+				<br />
+				<button>Click Me Too....</button>
+			</form>
+
+			<div
+			style="
+				margin: 50px;
+				padding: 10px;
+				background-color: tomato;
+				border-radius: 15px;
+				box-shadow: 5px 5px 5px rgba(165, 165, 165, 0.6);
+			"
+		>
+			<form action="https://www.google.com/search?" target="_blank">
+				<label for="fname">Search Word: </label>
+				<input type="text" id="fname" name="q" />&nbsp;&nbsp;
+				<button>Search Google</button>
+			</form>
+		</div>
+		</main>
+		<div>
+			<footer>CopyRight &copy; PurpleBeard - Trainer - JustinHeath</footer>
+	</body>
+</html>

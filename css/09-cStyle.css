@@ -1,0 +1,119 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+footer {
+	margin-top: 4px;
+	color: lightgrey;
+	font-size: small;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #04aa6d;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 55%;
+	padding: 20px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.container {
+	max-width: 500px;
+	border-radius: 15px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.dems {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.dems input {
+	width: 25%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-bottom: 16px;
+	margin-left: 10px;
+}
+
+.dems label {
+	width: 20%;
+	text-align: right;
+}
+
+#sex,
+#DropDown {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0px;
+}
+
+#sex label,
+#DropDown label {
+	margin-left: 20px;
+	margin-right: 8px;
+}
+
+#sex input {
+	cursor: pointer;
+}
+
+#contact label {
+	display: block;
+}
+#contact input,
+#contact label {
+	margin: 5px 40px;
+}
+
+#contact {
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+button {
+	background-color: #04aa6d;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #04aa6da6;
+	box-shadow: 2px 2px 5px 2px rgba(143, 143, 143, 0.438);
+}

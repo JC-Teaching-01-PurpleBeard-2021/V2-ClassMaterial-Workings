@@ -1,0 +1,70 @@
+/*
+Background
+colour
+Cover Units - em, rem, px, vh, vw, % (ems = %Parent rems = %root element value)
+gradient
+image
+opacity
+size i.e. cover
+radius
+shadow
+
+margin
+padding
+inline-block
+
+Selectors
+nesting & :hover
+-- h1,h2 OR .post a OR a:hover OR p::first-line
+
+Explain 
+Specificity
+!important
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+p {
+	font-size: 20px;
+}
+
+span {
+	font-size: 2rem;
+}
+
+/*
+#head1 {
+	color: crimson;
+}
+
+h1 {
+	color: blueviolet;
+}
+
+.class1 {
+	color: #8f91ff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+}
+*/
+body {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background-color: grey;
+	background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+	opacity: 0.5;
+	border: 3px solid blueviolet;
+	/* background-image: linear-gradient(#ff0099, #493240); */
+	border-radius: 50%;
+}
